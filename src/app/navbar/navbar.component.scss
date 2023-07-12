@@ -1,0 +1,41 @@
+/* == Burger menu == */
+
+/* Remove all native bootstrap effects when button burger is clicked */
+
+.navbar-toggler {
+	outline: none;
+	box-shadow: none;
+	border: 0;
+	&:focus {
+		outline: none;
+		box-shadow: none;
+		border: 0;
+	}
+	&:active {
+		outline: none;
+		box-shadow: none;
+		border: 0;
+	}
+}
+
+.navbar-toggler-icon {
+	&:focus {
+		outline: none;
+		box-shadow: none;
+		border: 0;
+	}
+}
+
+.navbar-collapse.collapse.show {
+	height: 100%;
+	width: 100%;
+}
+
+.offcanvas-title, .navbar-brand {
+  font-size: 26px;
+  color: #f26430;
+}
+
+.navbar-nav {
+  font-size: 20px;
+}
